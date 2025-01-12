@@ -62,31 +62,10 @@ docker-compose logs -f app
 docker-compose exec app php artisan tinker
 ```
 
-### Gestión de dependencias
+### Gestión de dependencias (no debe de ser necesario)
 
 **Laravel (Composer):**
 ```bash
 docker-compose exec app composer install
 ```
 
-**Vue (NPM):**
-```bash
-docker-compose exec app npm install
-```
-
-**Vue (Yarn):**
-```bash
-docker-compose exec app yarn
-```
-
-### Compilación de assets
-
-**NPM:**
-```bash
-docker-compose exec app npm run dev
-```
-
-**Yarn:**
-```bash
-docker-compose exec app yarn dev
-```
