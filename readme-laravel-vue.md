@@ -10,14 +10,14 @@ Este proyecto combina **Laravel** y **Vue** en un entorno de contenedores con **
 
 ## Instrucciones de instalación
 
-1. **Clonar el repositorio (si corresponde):**
+1. **Clonar el repositorio :**
 
 ```bash
-git clone https://github.com/tu-usuario/laravel-vue-docker.git
+git clone [https://github.com/tu-usuario/laravel-vue-docker.git](https://github.com/jetezz/Laravel-vue-docker.git)
 cd laravel-vue-docker
 ```
 
-2. **Crear/copiar el archivo `.env` (si es necesario):**
+2. **Crear/copiar el archivo `.env`:**
    
    Copia el archivo de ejemplo `.env.example` a `.env` y ajusta las variables según tus necesidades, como la configuración de la base de datos, la clave de la aplicación, entre otros.
 
