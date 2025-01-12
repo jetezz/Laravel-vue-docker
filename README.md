@@ -1,1 +1,1 @@
-# Laravel-view-docker
+# Laravel-vue-docker
