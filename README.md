@@ -46,6 +46,14 @@ docker-compose exec app php artisan migrate
    * Abre tu navegador en http://localhost:80
    * Si usas un puerto diferente al 80 (por ejemplo, definido en tu archivo `docker-compose.yml`), ajusta la URL en consecuencia.
 
+5. **Ejecutar front):**
+
+```bash
+cd vue-project
+docker build -t mi-app-vue3 .
+docker run -d -p 80:80 --name mi-app-container mi-app-vue3
+```
+
 ## Uso y comandos útiles
 
 ### Ver logs de un contenedor en tiempo real
