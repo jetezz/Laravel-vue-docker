@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -19,6 +20,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        // Cargar las rutas de la API con prefijo "api"
+        Route::prefix('api')
+            ->middleware('api') // Middleware de API predeterminado
+            ->group(base_path('routes/api.php'));
     }
 }
